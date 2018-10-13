@@ -1,0 +1,4 @@
+<!-- pages/tasks/tasks.wxml -->
+<text>pages/tasks/tasks.wxml</text>
+<view>【任务】</view>
+<dk-tabbar tabBar="{{tabBar}}"></dk-tabbar>

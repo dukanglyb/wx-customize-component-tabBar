@@ -1,0 +1,23 @@
+/* pages/bargain/news/news.wxss */
+.news_img{
+  width: 100%;
+  height: 100%;
+}
+
+.kaifa-container{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
+.kaifa-container .kaifa-text{
+  color:#BBB;
+  font-size: 28rpx;
+  margin-top: 30rpx;
+}
+
+.kaifa-container .kaifa-img{
+  width: 351rpx;
+  height: 355rpx;
+}

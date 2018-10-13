@@ -1,0 +1,10 @@
+<!-- 咨讯页面 -->
+<view>
+  <view class='news_img'>
+    <view class='kaifa-container'>
+      <image class='kaifa-img' src="/images/bgimage/kaifaing.png"></image>
+      <view class='kaifa-text'>【头条】程序员正在玩命开发中…</view>
+    </view>
+  </view>
+</view>
+<dk-tabbar tabBar="{{tabBar}}"></dk-tabbar>

@@ -1,0 +1,15 @@
+<view class="tabbar">
+  <block wx:for="{{tabBar.list}}" wx:for-item="item" wx:for-index="index" wx:key="{{index}}">
+    <navigator class="tabbar-nav" id="{{index}}" hover-class="none" open-type="switchTab" url="{{item.pagePath}}">
+      <view class="tabbar-item" style="color:{{item.active ? tabBar.selectedColor : tabBar.color}}">
+        <view wx:if="{{!item.isScanit}}" class="tabbar-item-icon">
+          <image src="{{item.active ? item.selectedIconPath : item.iconPath}}"></image>
+        </view>
+        <view wx:else class="tabbar-scanit">
+          <image src="{{item.iconPath}}"></image>
+        </view>
+        <view wx:if="{{!item.isScanit}}" class="tabbar-item-title" style="color:{{item.active ? tabBar.selectedColor : tabBar.color}}">{{item.text}}</view>
+      </view>
+    </navigator>
+  </block>
+</view>

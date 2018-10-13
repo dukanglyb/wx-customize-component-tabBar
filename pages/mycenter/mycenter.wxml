@@ -1,0 +1,3 @@
+<!-- pages/mycenter/mycenter.wxml -->
+<text>pages/mycenter/mycenter.wxml</text>
+<dk-tabbar tabBar="{{tabBar}}"></dk-tabbar>
