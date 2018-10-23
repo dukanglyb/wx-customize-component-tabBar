@@ -17,6 +17,9 @@ Page({
     })
   },
   onLoad: function () {
+    //隐藏系统tabbar
+    wx.hideTabBar();
+    // 自定义tabBar赋值
     this.setData({
       tabBar: app.globalData.tabBar
     })
